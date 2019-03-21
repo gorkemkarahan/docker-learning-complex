@@ -14,7 +14,7 @@ after_success:
   - docker build -t gorkemkarahan/docker-learning-complex-worker ./worker
   
   # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  - echo docker login -u "$DOCKER_ID" -p "$DOKCER_PASSWORD"
+  - echo docker login -u "$DOCKER_ID" -p "$DOCkER_PASSWORD"
 
   - docker push gorkemkarahan/docker-learning-complex-client
   - docker push gorkemkarahan/docker-learning-complex-nginx
